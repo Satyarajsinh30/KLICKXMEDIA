@@ -1,0 +1,307 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header_wrapper{
+    background: black;
+}
+.header_wrapper .navbar{
+    -webkit-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    font-family: Quicksand;
+    font-weight: 400;
+    -moz-transition: all 0.2s linear;
+}
+.header_wrapper .navbar-brand img{
+    max-width: 210px;
+    height: auto;
+}
+.header_wrapper .menu-navbar-nav{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.header_wrapper .nav-item{
+    margin: 0 10px;
+}
+.header_wrapper .nav-item .nav-link{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(226, 226, 226);
+    line-height: 1;
+}
+.header_wrapper .nav-item .nav-link.active{
+    color: rgb(251, 0, 255);
+}
+.header-scrolled{
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    background: white;
+    -webkit-box-shadow: 0 4px 6px 0 rgba(12,0,46,0.5);;
+    box-shadow: 0 4px 6px 0 rgba(12,0,46,0.5);
+}
+.header-scrolled .navbar-brand img{
+    width: 190px;
+    height: auto;
+    animation: animated 0.1s ease-in-out;
+}
+@keyframes animated{
+    0%{
+        width: 210px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 190px;
+    }
+}
+.header-scrolled .nav-item .nav-link{
+    font-size: 17px;
+}
+/*banner*/
+.banner_wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0 125px;
+    background:url(/img/light_edit.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+  /*  margin-top: -15px;*/
+}
+.banner_wrapper .banner-title{
+    font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1.15;
+    font-family: Quicksand;
+    font-weight: 200;
+    margin-bottom: 80px;
+    align-items: center;
+    color: white;
+}
+.banner_wrapper .banner-name{
+    color: white;
+    margin-bottom: 25px;
+    line-height: 1.15;
+    margin-top: 80px;
+    font-weight: 700;
+    font-family: Quicksand;
+    text-align: center;
+    align-items: center;
+    font-weight:50;
+    font-size: 100px;
+}
+.banner_wrapper .banner-title-text{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+.banner_wrapper .banner-title span{
+    color: rgb(251, 0, 255);
+}
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+/*feature*/
+.feature_wrapper{
+    padding: 100px 0 0;
+    background: url(/img/nana_!.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+.feature_wrapper img{
+    width: 100%;
+}
+.feature_wrapper .feature_number{
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 24px;
+    padding: 4px 17px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    max-width: 44px;
+    color: black;
+    background-color: white;
+}
+.feature_wrapper .fature_title{
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    max-width: 1000px;
+    margin-bottom: 25px;
+    color: white;
+}
+.feature_wrapper .feature_text{
+    font-size: 15px;
+    font-weight: 600px;
+    line-height: 1.7;
+    max-width: 700px;
+    color: white;
+}
+.feature_wrapper .innovate{
+    padding: 10px 0;
+}
+/*about*/
+.about_wrapper{
+    background: url(/img/bb_light.jpg);
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.about_wrapper .about_title{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.about_wrapper .about_text{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 23px;
+}
+/*contact*/
+.contact_wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: black;
+    background-size: cover;
+}
+.contact-form{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    margin: 30px 0;
+}
+.contact-form >*{
+    width: 50%;
+}
+.contact-form .first-container{
+    background: rgb(80, 77, 77);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form .first-container .info-container div{
+    margin: 24px 0;
+}
+.contact-form .first-container .info-container div h3{
+    padding-bottom: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.contact-form .first-container .info-container div p{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.contact-form .first-container .info-container div:first-child p{
+    max-width: 240px;
+
+}
+.contact-form .second-container{
+    padding: 30px;
+}
+.contact-form .second-container form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form .second-container h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-form .second-container form .form-group{
+    margin-bottom: 10px;
+}
+.contact-form .second-container form .form-group *{
+    min-height: 55px;
+    border: 1px solid black;
+    padding: 0 20px;
+}
+.contact-form .second-container form .form-group label
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 1px;
+}
+.contact-form .second-container form .form-group:first-of-type input
+{
+    width: 50%;
+    margin-right: -5px;
+}
+.contact-form .second-container form .form-group input
+{
+    width: 100%;
+    font-size: 15px;
+    margin-top: -2px;
+}
+.contact-form .second-container form .form-group input::placeholder,
+.contact-form .second-container form .form-group textarea::placeholder
+{
+    color: #999;
+}
+.contact-form .second-container form .form-group textarea{
+    width: 100%;
+    min-height: 80px;
+    resize: none;
+    padding: 10px 20px;
+    margin-top: -1px;
+}
+.contact-form .second-container form button{
+    width: 200px;
+    height: 50px;
+    background:cyan;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    position: relative;
+    left: calc(50% - 100px);
+    cursor: pointer;
+}
+.contact-form .second-container form button:hover{
+    background: rgb(0, 229, 255);
+}
