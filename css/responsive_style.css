@@ -1,0 +1,109 @@
+@media (max-width:1300px)
+{
+    .header_wrapper .menu-navbar-nav{
+        width: auto;
+    }
+}
+@media (max-width:1230px)
+{
+    .header_wrapper .nav-item{
+        margin: 0 5px;
+    }
+    .banner_wrapper .banner-title{
+        font-size: 50px;
+    }
+    .banner_wrapper .banner-name{
+        font-size: 60px;
+    }
+    .about_wrapper{
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 80px;
+    }
+}
+@media (max-width:1070px)
+{
+    .header_wrapper .nav-item .nav-link{
+        font-size: 16px;
+    }
+    .feature_wrapper .feature_title{
+        font-size: 16px;
+    }
+    .about_wrapper{
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-bottom: 60px;
+    }
+}
+@media (max-width:991px)
+{
+    .feature_wrapper .innovate .baka_1{
+        display:none;
+    }
+    .header_wrapper .navbar-brand img{
+        width: 180px;
+    }
+    .header_wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+    }
+    .header_wrapper .nav-item .nav-link{
+        font: 18px;
+        margin-top: 15px;
+    }
+    .header_wrapper .navbar-collapsed{
+        background: white;
+    }
+    .banner_wrapper .banner-title{
+        font-size: 36px;
+    }
+    .banner_wrapper .banner-name{
+        font-size: 40px;
+    }
+    .feature_wrapper .feature_number{
+        margin: 20px auto;
+    }
+    .feature_wrapper .feature_title{
+        font-size: 24px;
+    }
+    .about_wrapper{
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width:767px)
+{
+    .feature_wrapper .innovate .baka_1{
+        display: none;
+    }
+    .banner_wrapper{
+        padding: 100px 0 100px;
+    }
+    .banner_wrapper .row{
+        flex-direction: column-reverse;
+    }
+    .about_wrapper{
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (max-width:800px){
+    .contact-form{
+        width: 90vw;
+    }
+}
+@media screen and (max-width:700px){
+    .contact-form{
+        flex-direction: column-reverse;
+    }
+    .contact-form >*{
+        width: 100%;
+    }
+    .contact-form .first-container{
+        padding: 40px 0;
+    }
+}
