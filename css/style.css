@@ -72,7 +72,7 @@
     width: 100%;
     height: 100%;
     padding: 100px 0 125px;
-    background:url(img/light_edit.jpg);
+    background:url(/img/light_edit.jpg);
     justify-content: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -127,7 +127,7 @@
 /*feature*/
 .feature_wrapper{
     padding: 100px 0 0;
-    background: url(img/nana_!.jpg);
+    background: url(/img/nana_!.jpg);
     background-size: cover;
     color: aliceblue;
 }
@@ -166,7 +166,7 @@
 }
 /*about*/
 .about_wrapper{
-    background: url(img/bb_light.jpg);
+    background: url(/img/bb_light.jpg);
     background-size: cover;
     color: white;
     padding-top: 100px;
