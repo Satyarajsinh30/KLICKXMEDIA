@@ -127,7 +127,7 @@
 /*feature*/
 .feature_wrapper{
     padding: 100px 0 0;
-    background: url(/css/nana_!.jpg);
+    background: url(nana_!.jpg);
     background-size: cover;
     color: aliceblue;
 }
@@ -166,7 +166,7 @@
 }
 /*about*/
 .about_wrapper{
-    background: url(/bb_light.jpg);
+    background: url(bb_light.jpg);
     background-size: cover;
     color: white;
     padding-top: 100px;
